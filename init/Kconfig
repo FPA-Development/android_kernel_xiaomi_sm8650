@@ -1548,6 +1548,12 @@ config BPF
 	bool
 	select CRYPTO_LIB_SHA1
 
+config MIHW
+	bool "MI driver"
+	default n
+	help
+	  Mi driver code
+
 menuconfig EXPERT
 	bool "Configure standard kernel features (expert users)"
 	# Unhide debug options, to make the on-by-default options visible
