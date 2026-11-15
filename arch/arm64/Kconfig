@@ -2440,6 +2440,10 @@ config TARGET_PRODUCT_AURORA
 	bool "Target product is aurora"
 	default n
 
+config TARGET_PRODUCT_ZORN
+	bool "Target product is zorn"
+	default n
+
 config TARGET_PRODUCT_MANET
 	bool "Target product is manet"
 	default n
