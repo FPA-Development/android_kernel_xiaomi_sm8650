@@ -6,3 +6,4 @@
 
 obj-$(CONFIG_FINGERPRINT_GOODIX_FOD)	+= goodix_fod/
 obj-$(CONFIG_FINGERPRINT_MI_FP) 	+= mi_fp/
+obj-$(CONFIG_FINGERPRINT_MI_FP_ULTRA) 	+= mi_fp_ultra/
