@@ -23,7 +23,9 @@
 #include <linux/soc/qcom/pmic_glink.h>
 #include <linux/soc/qcom/battery_charger.h>
 #include <linux/soc/qcom/panel_event_notifier.h>
-//#include "charger_partition.h"
+#if defined(CONFIG_MI_O16U_EUPD) || defined(CONFIG_MI_O11_EMPTY_BATTERY)
+#include "charger_partition.h"
+#endif
 #include "qti_battery_charger.h"
 
 /* pen_connect_strategy start */
