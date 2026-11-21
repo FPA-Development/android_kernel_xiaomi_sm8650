@@ -52,6 +52,8 @@ no-header-test += sound/sfnt_info.h
 no-header-test += xen/evtchn.h
 no-header-test += xen/gntdev.h
 no-header-test += xen/privcmd.h
+no-header-test += audio/sound/cs35l41.h
+no-header-test += audio/sound/cs35l43.h
 
 # More headers are broken in some architectures
 
